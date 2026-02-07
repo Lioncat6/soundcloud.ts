@@ -10,21 +10,6 @@ export type SoundcloudLicense =
     | "cc-by-nc-nd"
     | "cc-by-nc-sa"
 
-export type SoundcloudTrackType =
-    | "original"
-    | "remix"
-    | "live"
-    | "recording"
-    | "spoken"
-    | "podcast"
-    | "demo"
-    | "in progress"
-    | "stem"
-    | "loop"
-    | "sound effect"
-    | "sample"
-    | "other"
-
 export interface SoundcloudTrack {
     comment_count: number
     full_duration: number

@@ -1,16 +1,5 @@
 import type {SoundcloudFilter, SoundcloudSearch} from "./index"
 
-export interface SoundcloudUserMini {
-    avatar_url: string
-    id: number
-    kind: string
-    permalink_url: string
-    uri: string
-    username: string
-    permalink: string
-    last_modified: string
-}
-
 export interface SoundcloudUser {
     avatar_url: string
     city: string
