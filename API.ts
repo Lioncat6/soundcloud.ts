@@ -100,3 +100,7 @@ export class API {
         return this.clientId
     }
 }
+
+export class APIV1 {
+    
+}
